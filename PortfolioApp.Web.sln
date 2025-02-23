@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioApp.Web", "PortfolioApp.Web\PortfolioApp.Web.csproj", "{81275DAE-B31C-4360-B033-FF0419A6D9F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81275DAE-B31C-4360-B033-FF0419A6D9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81275DAE-B31C-4360-B033-FF0419A6D9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81275DAE-B31C-4360-B033-FF0419A6D9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81275DAE-B31C-4360-B033-FF0419A6D9F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

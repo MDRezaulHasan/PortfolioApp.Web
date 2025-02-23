@@ -1,0 +1,14 @@
+using System.ComponentModel.DataAnnotations;
+
+namespace PortfolioApp.Web.Models;
+
+public class Author
+{
+    public int Id { get; set; }
+    [Required, StringLength(100)]
+    public string Name { get; set; }
+    [EmailAddress, Required]
+    public string Email { get; set; }
+    // Navigation Property
+    public ICollection<BlogPost> BlogPosts { get; set; }
+}
